@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forum Diskusi</title>
+</head>
+<body>
+    <header>
+        <h1 class="logo-container">
+            <img src="images/logo.jpg" alt="logo" class="logo" />
+            <span class="site-name">Komunitas Buku Kita</span>
+          </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="books.html">Daftar Buku</a></li>
+                <li><a href="reviews.html">Ulasan Buku</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Diskusi Terbaru</h2>
+        
+        <section id="forum-buku-favorit">
+            <h3>Topik: Buku Favorit</h3>
+            <p>Diskusikan buku favorit Anda di sini! Apa yang membuat buku tersebut spesial bagi Anda?</p>
+            <h4>Komentar:</h4>
+            <ul>
+                <li><strong>Putri:</strong> Saya sangat menyukai "Laskar Pelangi" karena cerita dan karakter yang kuat.</li>
+                <li><strong>amahhhh:</strong> "1984" oleh George Orwell sangat mengesankan! Bagaimana dengan Anda?</li>
+            </ul>
+            <form>
+                <label for="comment-text">Komentar Anda:</label>
+                <textarea id="comment-text" name="comment-text" rows="3" required></textarea>
+                <button type="submit">Kirim Komentar</button>
+            </form>
+        </section>
+        
+        <section id="forum-rekomendasi-buku">
+            <h3>Topik: Rekomendasi Buku</h3>
+            <p>Berikan rekomendasi buku untuk anggota lainnya! Buku apa yang cocok untuk dibaca di akhir pekan?</p>
+            <h4>Komentar:</h4>
+            <ul>
+                <li><strong>lauren:</strong> "Dune" adalah pilihan yang sangat baik untuk penggemar fiksi ilmiah!</li>
+                <li><strong>wincel:</strong> "The Alchemist" adalah buku yang menginspirasi dan bisa dibaca berulang kali.</li>
+            </ul>
+            <form>
+                <label for="recommendation-text">Rekomendasi Anda:</label>
+                <textarea id="recommendation-text" name="recommendation-text" rows="3" required></textarea>
+                <button type="submit">Kirim Rekomendasi</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Devi Yenni Marbun</p>
+      </footer>
+</body>
+</html>
